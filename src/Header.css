@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    right: 5%;
+    
+
+}
+
+.text{
+    justify-content: left;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    /* background: #028fac; */
+    padding: 40px;
+    transition: transform 0.06s ease;
+}
+.header:hover {
+  transform: scale(1.2);
+}
